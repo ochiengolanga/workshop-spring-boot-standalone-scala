@@ -9,7 +9,4 @@ class BootstandaloneScalaApplication {
 
 object BootstandaloneScalaApplication {
   def main(args : Array[String]): Unit = SpringApplication.run(classOf[BootstandaloneScalaApplication], args: _*)
-
-
-  println("Hello Boot scala")
 }
